@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Production build outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment & local DB
+.env
+.env.local
+*.sqlite
+*.sqlite-journal
+
+# Vercel
+.vercel
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
